@@ -8,7 +8,6 @@ const tweetData = allTweets.map((tweetObj) => {
     timestamp: Date.parse(tweetObj.created_at),
   };
   return mappedObj;
-  console.log();
 });
 
 export function getRecentTweets() {
